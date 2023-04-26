@@ -40,10 +40,10 @@ static std::map<Effect, int32_t> vibEffects = {
     { Effect::TICK, 32 }
 };
 
-static std::map<EffectStrength, int32_t> vibStrengths = {
-    { EffectStrength::LIGHT, 1},
-    { EffectStrength::MEDIUM, 4},
-    { EffectStrength::STRONG, 9}
+static std::map<EffectStrength, float> vibStrengths = {
+    { EffectStrength::LIGHT, 0.25 },
+    { EffectStrength::MEDIUM, 0.5 },
+    { EffectStrength::STRONG, 1 }
 };
 #endif
 
